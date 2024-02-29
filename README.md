@@ -1,6 +1,8 @@
-# Android Configuration Checker 🔒
+# Android Configuration Checker 📱✅
 
-Android Configuration Checker is a command-line tool designed to ensure compliance of Android device configurations with CIS (Center for Internet Security) benchmarks. By leveraging ADB (Android Debug Bridge), it verifies device settings against predefined benchmarks and generates detailed reports, highlighting compliance status. 📱✅
+Android Configuration Checker is a command-line tool designed to ensure compliance of Android device configurations with CIS (Center for Internet Security) benchmarks. By leveraging ADB (Android Debug Bridge), it verifies device settings against predefined benchmarks and generates detailed reports, highlighting compliance status. 
+
+![android](https://github.com/saladandonionrings/CIS-Android-Audit/assets/61053314/793a0975-c632-49f2-937c-594d5be8456d)
 
 ## Key Features 🚀
 
