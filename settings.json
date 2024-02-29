@@ -1,0 +1,332 @@
+{
+    "secure": [
+        {
+            "name": "lockscreen.disabled",
+            "description": "1.2. Ensure 'Screen Lock' is set to 'Enabled'",
+            "expected": "0"
+        },
+        {
+            "name": "lock_screen_lock_after_timeout",
+            "description": "1.4. Ensure 'Automatically Lock' is set to 'Immediately'",
+            "expected": "0"
+        },
+        {
+            "name": "lockdown_in_power_menu",
+            "description": "1.5. Ensure 'Power button instantly locks' is set to 'Enabled'",
+            "expected": "1"
+        },
+        {
+            "name": "lock_screen_owner_info_enabled",
+            "description": "1.6. Ensure 'Lock Screen Message' is configured",
+            "expected": "1"
+        },
+        {
+            "name": "development_settings_enabled",
+            "description": "1.9. Ensure 'Developer Options' is set to 'Disabled'",
+            "expected": "0"
+        },
+        {
+            "name": "install_non_market_apps",
+            "description": "1.10. Ensure 'Install unknown apps' is set to 'Disabled'",
+            "expected": "1"
+        },
+        {
+            "name": "auto_time",
+            "description": "1.15. Ensure 'Use network-provided time' is set to 'Enabled'",
+            "expected": "1"
+        },
+        {
+            "name": "auto_time_zone",
+            "description": "1.15. Ensure 'Use network-provided time zone' is set to 'Enabled'",
+            "expected": "1"
+        },
+        {
+            "name": "remotely_locate",
+            "description": "1.16. Ensure 'Remotely locate this device' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "1. Open phone's Settings app.\n2. Tap Google.\n3. Tap Security.\n4. Tap Find My Device.\n5. Verify that Remotely locate this device setting is Enabled."
+        },
+        {
+            "name": "remote_lock",
+            "description": "1.17. Ensure 'Allow remote lock and erase' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "1. Open phone's Settings app.\n2. Tap Security.\n3. Tap Device admin apps.\n4. Verify that Find My Device is Enabled and Allow remote lock and erase is listed underneat"
+        },
+        {
+            "name": "scan_device",
+            "description": "1.18. Ensure 'Scan device for security threats' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "1. Open phone's Settings app.\n2. Tap Google.\n3. Tap Security.\n4. Tap Google Play Protect.\n5. Tap Settings Gear icon.\n6. Verify that Scan device for security threats setting is Enabled."
+        },
+        {
+            "name": "lock_to_app_exit_locked",
+            "description": "1.20. Ensure 'Ask for unlock pattern/PIN/password before unpinning' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "1. Open phone's Settings app.\n2. Tap Security.\n3. Tap Advanced.\n4. Tap Screen pinning.\n5. If Screen Pinning is On, then verify that Ask for pattern/PIN/password before unpinning setting is Enabled"
+        },
+        {
+            "name": "screen_off_timeout",
+            "description": "1.21. Ensure 'Screen timeout' is set to '1 minute or less'",
+            "expected": "60000"
+        },
+        {
+            "name": "wifi_assistant",
+            "description": "1.22. Ensure 'Wi-Fi assistant' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "1. Open phone's Settings app.\n2. Tap Google.\n3. Tap Networking.\n4. Verify that Wi-Fi assistant is turned OFF."
+        },
+        {
+            "name": "device_apps_date",
+            "description": "1.23. Keep device Apps up to date",
+            "expected": "Manual Verification",
+			"steps": "1. Tap/slide up Launcher.\n2. Launch Play Store App in the App drawer.\n3. Tap Menu.\n4. Tap My apps & Games.\n5. Verify that all apps are up to date."
+        },
+        {
+            "name": "add_users_when_locked",
+            "description": "1.24. Ensure 'Add users from lock screen' is set to 'Disabled'",
+            "expected": "0"
+        },
+        {
+            "name": "lock_screen_show_notifications",
+            "description": "2.1 Ensure 'Lock screen' is set to 'Don't show notifications at all'",
+            "expected": "0"
+        },
+        {
+            "name": "web_autofill_query_url",
+            "description": "Ensure 'autofill service' is Disabled",
+            "expected": ""
+        },
+        {
+            "name": "user_full_data_backup_aware",
+            "description": "Governs whether the user is eligible for full app-data backup",
+            "expected": "1"
+        },
+        {
+            "name": "location_mode",
+            "description": "The current location mode of the device.",
+            "expected": "0"
+        },
+        {
+            "name": "location_providers_allowed",
+            "description": "Ensure 'Providers allowed for location' is empty",
+            "expected": ""
+        },
+        {
+            "name": "lock_screen_allow_private_notifications",
+            "description": "Ensure 'Lock screen' is set to 'Don't show notifications at all'",
+            "expected": "0"
+        },
+        {
+            "name": "speak_password",
+            "description": "Ensure 'Speak passwords' is disabled",
+            "expected": "0"
+        },
+        {
+            "name": "wake_gesture_enabled",
+            "description": "Ensure 'Wake up device on gesture' is enabled",
+            "expected": "0"
+        },
+        {
+            "name": "backup_enabled",
+            "description": "Ensure 'Backup' is disabled",
+            "expected": "0"
+        },
+        {
+            "name": "user_setup_complete",
+            "description": "Ensure user has completed the setup",
+            "expected": "1"
+        },
+        {
+            "name": "bluetooth_addr_valid",
+            "description": "Ensure Bluetooth address is valid",
+            "expected": "1"
+        },
+        {
+            "name": "install_non_market_apps",
+            "description": "Enable installing apps not from the store",
+            "expected": "0"
+        },
+        {
+            "name": "assistant",
+            "description": "Google assistance",
+            "expected": "empty"
+        },
+        {
+            "name": "voice_interaction_service",
+            "description": "Voice interaction assistance",
+            "expected": "empty"
+        },
+        {
+            "name": "voice_recognition_service",
+            "description": "Voice recognition assistance",
+            "expected": "empty"
+        },
+        {
+            "name": "enabled_notification_assistant",
+            "description": "Notification assistant",
+            "expected": "empty"
+        }
+    ],
+    "global": [
+        {
+            "name": "device_provisioned",
+            "description": "Ensure the Setup of the phone is completed",
+            "expected": "1"
+        },
+        {
+            "name": "wifi_on",
+            "description": "Ensure WiFi is Disabled",
+            "expected": "0"
+        },
+        {
+            "name": "bluetooth_on",
+            "description": "1.28. Ensure Bluetooth is Disabled",
+            "expected": "0"
+        },
+
+        {
+            "name": "stay_on_while_plugged_in",
+            "description": "Keep the device on while the device is plugged in",
+            "expected": "0"
+        },
+        {
+            "name": "wait_for_debugger",
+            "description": "Is the device waiting for debugger ?",
+            "expected": "0"
+        },
+        {
+            "name": "assisted_gps_enabled",
+            "description": "Assisted GPS enabled",
+            "expected": "0"
+        },
+        {
+            "name": "accessibility_enabled",
+            "description": "Accessibility enabled",
+            "expected": "0"
+        },
+        {
+            "name": "google_assistant_button_on",
+            "description": "Google assistant button",
+            "expected": "0"
+        },
+        {
+            "name": "package_verifier_enable",
+            "description": "Package verifier",
+            "expected": "1"
+        },
+        {
+            "name": "ble_scan_always_enabled",
+            "description": "Ensure 'Bluetooth scan' is always Enabled",
+            "expected": "0"
+        },
+
+        {
+            "name": "set_install_location",
+            "description": "Let the user pick default install location",
+            "expected": "0"
+        },
+        {
+            "name": "upload_apk_enable",
+            "description": "Enable upload APK to Play Protect",
+            "expected": "1"
+        },
+        {
+            "name": "package_verifier_user_consent",
+            "description": "1.19. Ensure 'Improve harmful app detection' is set to 'Enabled'",
+            "expected": "1"
+        },
+        {
+            "name": "adb_enabled",
+            "description": "Android Debug Bridge is enabled",
+            "expected": "0"
+        },
+        {
+            "name": "Web_and_App_Activity",
+            "description": "2.3. Ensure 'Web and App Activity' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that Web & App Activity setting is Disabled."
+        },
+        {
+            "name": "Device_Information",
+            "description": "2.4. Ensure 'Device Information' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that Device Information setting is Disabled."
+        },
+        {
+            "name": "Voice_and_Audio_Activity",
+            "description": "2.5 Ensure 'Voice & Audio Activity' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that Voice & Audio Activity Setting is Disabled."
+        },
+        {
+            "name": "YouTube_Search_History",
+            "description": "2.6 Ensure 'YouTube Search History' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that Youtube Search History setting is Disabled."
+        },
+        {
+            "name": "YouTube_Watch_History",
+            "description": "2.7. Ensure 'YouTube Watch History' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that YouTube Watch History is Disabled."
+        },
+        {
+            "name": "Google_Location_History",
+            "description": "2.8. Ensure 'Google Location History' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Open phone's Settings app.\n2. Tap Privacy.\n3. Tap Advanced.\n4. Tap Activity Controls.\n5. Verify that Google Location History setting is turned OFF."
+        },
+        {
+            "name": "chrome_microphone",
+            "description": "3.1. Chrome: Ensure 'Microphone' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Tap Chrome Icon.\n2. Tap Menu Icon.\n3. Tap Settings.\n4. Tap Site settings.\n5. Verify that Microphone displays Ask first.\n"
+        },
+        {
+            "name": "chrome_location",
+            "description": "3.2. Chrome: Ensure 'Location' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Tap Chrome Icon.\n2. Tap Menu Icon.\n3. Tap Settings.\n4. Tap Site settings.\n5. Tap Location\n6. Verify that Location displays Ask first."
+        },
+        {
+            "name": "chrome_cookies",
+            "description": "3.3. Chrome: Ensure 'Allow third-party cookies' is set to 'Disabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Tap Chrome Icon.\n2. Tap Menu Icon.\n3. Tap Settings.\n4. Tap Site settings.\n5. Verify that Allow third-party cookies displays Allowed, except third-party."
+        },
+        {
+            "name": "chrome_safe_browsing",
+            "description": "3.4. Chrome: Ensure 'Safe Browsing' is set to 'Enabled'",
+            "expected": "Manual Verification",
+			"steps": "",
+			"steps": "1. Tap Chrome Icon.\n2. Tap Menu Icon.\n3. Tap Settings.\n4. Tap Privacy.\n5. Verify that Safe Browsing checkbox is checked."
+        }
+    ],
+    "custom_checks": [
+        {
+            "name": "get_max_users",
+            "description": "1.25. Ensure 'Guest profiles' do not exist",
+            "expected": "1"
+        },
+        {
+            "name": "list_third_party_keyboards",
+            "description": "1.29. Ensure that no 3rd party keyboards are installed",
+            "expected": ""
+        },
+        {
+            "name": "encryption_status",
+            "description": "Ensure 'Encrypt phone' is set to 'Enabled'",
+            "expected": "encrypted"
+        }
+    ]
+
+}
