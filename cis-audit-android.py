@@ -29,6 +29,8 @@ def execute_custom_check(device, setting):
         command = f"adb -s {device} shell pm list packages -3 | grep 'keyboard'"
     elif setting['name'] == "encryption_status":
         command = f"adb -s {device} shell getprop ro.crypto.state"
+    elif setting['name'] == "root_status":
+        command = f"adb -s {device} shell su -c 'echo Rooted'"
     else:
         return "Unsupported custom check", "Non-Compliant", expected_value
     output, error = execute_adb_command(command)
