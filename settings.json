@@ -326,6 +326,11 @@
             "name": "encryption_status",
             "description": "Ensure 'Encrypt phone' is set to 'Enabled'",
             "expected": "encrypted"
+        },
+	{
+            "name": "root_status",
+            "description": "Ensure the device is not rooted",
+            "expected": "/system/bin/sh: su: inaccessible or not found"
         }
     ]
 
